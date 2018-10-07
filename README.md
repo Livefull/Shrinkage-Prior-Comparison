@@ -1,4 +1,4 @@
-# Shrinkage-prior-comparison
+# Shrinkage prior comparison
 
 
-# Instructions for Triton
+# Instructions for Triton usage
