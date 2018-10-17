@@ -4,13 +4,18 @@
 
 **Step 2**: Rscript triton_configuration.R model_set num_rep num_fits num_cores time
 
-Generates triton_fit.slrm file, assumes that all the Stan models are in "SM" directory
+Generates triton_fit.slrm file, assumes that all the Stan models are in "SM" directory. 
 
-**Parameters:**
+Parameters:
+
 model_set = Keyword which is linked to all desired models. 
+
 num_rep = Number of replications 
+
 num_fits = Number of fits per array task (make sure num_rep/num_fits = integer)
+
 num_cores = Number of cores per array task 
+
 time = Time allocated for each job (x:00, where x depicts hours)
 
 
