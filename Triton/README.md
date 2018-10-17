@@ -10,13 +10,9 @@ Generates triton_fit.slrm file, assumes that all the Stan models are in "SM" dir
 Parameters:
 
 model_set = Keyword which is linked to all desired models. 
-
 num_rep = Number of replications 
-
 num_fits = Number of fits per array task (make sure num_rep/num_fits = integer)
-
 num_cores = Number of cores per array task 
-
 time = Time allocated for each job (x:00, where x depicts hours)
 
 
