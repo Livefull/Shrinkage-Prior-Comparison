@@ -26,7 +26,7 @@ Create partitions for fit diagnostics using data as "project_data.RData". Partit
 
 **Step 4**: Rscript fill_fit_diagnostics.R
 
-Fills all partial diagnostics to "fit_diagnostics_new" archive which can be visualized with "show_diagnostics.R" function.
+Fills all partial diagnostics to "fit_diagnostics_new" archive which can be visualized with "show_diagnostics.R" function. An example archive "fit_diagnostics" is included in master folder.
 
 
 
