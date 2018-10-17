@@ -4,7 +4,7 @@
 
 **Step 2**: Rscript triton_configuration.R model_set num_rep num_fits num_cores time
 
-Generates triton_fit.slrm file, assumes that all the Stan models are in "SM" directory and that 10G memory per cpu is enough. 
+Generates triton_fit.slrm file, assumes that all the Stan models are in "SM" directory and that 10G memory per cpu is enough. For personal usage, notice that the directory paths "/
 
 Parameters:
 
